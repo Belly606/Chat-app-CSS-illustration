@@ -38,8 +38,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [[solution URL here]([https://github.com/Belly606/Huddle-landing-page-with-curved-sections/](https://github.com/Belly606/Chat-app-CSS-illustration))]
-- Live Site URL: [[live site URL here]([https://belly606.github.io/Huddle-landing-page-with-curved-sections/](https://belly606.github.io/Chat-app-CSS-illustration/))]
+- Solution URL: [[Solution Here](https://belly606.github.io/Chat-app-CSS-illustration/)]
+- Live Site URL: [[live site URL here](https://belly606.github.io/Chat-app-CSS-illustration/)]
 
 ## My process
 
