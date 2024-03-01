@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style/output.css">
+</head>
+<body class="font-Rubik antialiased bg-gray-50">
+  <div class="relative w-full h-full md:h-screen md:grid md:place-items-center overflow-hidden">
+    <div class="absolute w-120 lg:w-176 h-172 lg:h-200 bg-gradient-to-b from-Light-Magenta to-Light-Violet rounded-b-full z-0 -top-40 -left-72 lg:-top-8 lg:-left-32"></div>
+    <div class="relative z-10 md:flex md:items-center">
+      <!-- Mobile Illustration Start -->
+      <div class="flex justify-center py-14 md:flex-1 md:block">
+        <div class="mobile bg-Light-Grayish-Violet w-60 rounded-3xl shadow-xl border-10 border-white md:ml-auto md:mr-20">
+          <div class="header bg-gradient-to-r from-Light-Violet to-Light-Magenta w-full h-16 rounded-t-3xl rounded-b-md">
+            <div class="notch bg-white w-32 h-4 mx-auto rounded-b-xl"></div>
+            <div class="h-12 px-3 flex justify-between items-center">
+              <div class="flex items-center space-x-1">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512"
+                class="fill-white h-3">
+                <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                </svg>
+                <img class="w-6 h-6 rounded-full border-2 border-white" src="images/avatar.jpg" alt="Avatar">
+                <div class="profile-name text-white pl-1">
+                  <p class="text-xs font-bold">Samuel Green</p>
+                  <p class="text-2xs opacity-60">Available to Walk</p>
+                </div>
+              </div>
+              <div>
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 128 512"
+                class="fill-white h-3">
+                <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="chat flex flex-col gap-y-2 p-2">
+            <div class="msg left">
+              <p>That sounds great. I’d be happy with that.</p>
+            </div>
+            <div class="msg left">
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+            <div class="msg self-end flex space-x-2 mr-2">
+              <img class="w-10 h-10 rounded-lg" src="images/dog-image-1.jpg" alt="Dog Image 1">
+              <img class="w-10 h-10 rounded-lg" src="images/dog-image-2.jpg" alt="Dog Image 2">
+              <img class="w-10 h-10 rounded-lg" src="images/dog-image-3.jpg" alt="Dog Image 3">
+            </div>
+            <div class="msg right">
+              <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+            <div class="msg right">
+              <p>Can you make it?</p>
+            </div>
+            <div class="msg left">
+              <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            </div>
+            <div class="option flex justify-between items-center">
+              <div class="flex gap-2 items-center">
+                <input type="radio" id="opt-1">
+                <label for="opt-1">30 minute walk</label>
+              </div>
+              <p>$29</p>
+            </div>
+            <div class="option flex justify-between items-center">
+              <div class="flex gap-2 items-center">
+                <input type="radio" id="opt-2">
+                <label for="opt-2">1 hour walk</label>
+              </div>
+              <p>$49</p>
+            </div>
+            <div class="send w-full bg-white rounded-full h-8 mt-2 p-1 pl-2 shadow-sm text-Grayish-Blue flex justify-between items-center">
+              <p class="text-xs">Type a message…</p>
+              <div class="submit bg-Very-Dark-Desaturated-Violet h-6 w-6 rounded-full flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 320 512"
+                class="fill-white h-4 w-4">
+                  <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Illustration End -->
+      <div class="px-8 text-center md:text-left pb-12 md:flex-1">
+        <h1 class="text-4xl text-Very-Dark-Desaturated-Violet font-bold">Simple booking</h1>
+        <p class="text-lg text-Dark-Grayish-Violet leading-relaxed mt-8 md:max-w-md">
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+          discuss arrangements and make bookings. Once the walk has been completed you can rate 
+          your walker and book again all through the chat.
+        </p>
+      </div>
+    </div>
+    <div class="absolute w-120 lg:w-176 h-172 lg:h-200 bg-Light-Grayish-Violet rounded-t-full z-0 -bottom-52 -right-72 lg:-bottom-14 lg:-right-32"></div>
+  </div>
+  <div class="text-center w-60 md:w-full mx-auto">
+    Challenge by <a class="text-Light-Violet font-bold" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-Light-Magenta font-bold" href="https://www.frontendmentor.io/profile/Belly606">Belly</a>.
+  </div>
+</body>
+</html>

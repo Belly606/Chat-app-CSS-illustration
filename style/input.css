@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .msg {
+        @apply  p-2  text-2xs rounded-md max-w-[66.666%];
+    }
+    .msg.left {
+        @apply rounded-bl-none text-Moderate-Violet bg-Pale-Violet;
+    }
+    .msg.right {
+        @apply self-end rounded-br-none text-Desaturated-Dark-Violet bg-white shadow-md;
+    }
+    .option {
+        @apply max-w-[66.666%] flex justify-between items-center p-2 text-white bg-gradient-to-l from-Light-Violet to-Light-Magenta rounded-md rounded-bl-none
+    }
+    .option input {
+        @apply appearance-none bg-transparent w-3 h-3 rounded-full border-2 border-Very-Light-Magenta;
+    }
+    .option input + label {
+        @apply text-2xs
+    }
+    .option > p {
+        @apply font-bold text-sm
+    }
+}
